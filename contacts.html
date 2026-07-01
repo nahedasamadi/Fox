@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="bg-white h-screen w-screen py-0">
+      <!-- top -->
+      <div
+        class="h-40% w-full bg-white flex flex-cols justify-around px-10 py-5"
+      >
+        <div>
+          <h1 class="font-bold text-4xl">FOX.</h1>
+          <p class="font-semibold text-sm">UNIVERSITY</p>
+        </div>
+        <div class="flex gap-13">
+          <div class="flex gap-5 justify-center items-center">
+            <i class="fa-solid fa-paper-plane text-orange-500"></i>
+            <div>
+              <h3 class="font-bold">Email</h3>
+              <p>youreamail@email.com</p>
+            </div>
+          </div>
+          <div class="flex gap-5 justify-center items-center">
+            <i class="fa-solid fa-phone text-orange-500"></i>
+            <div>
+              <h3 class="font-bold">Call</h3>
+              <p>Call Us: + 1235 2355 98</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn1 flex items-center">
+          <div class="btn1 flex items-center">
+            <button
+              id="btn1"
+              class="btn1 flex items-center justify-center bg-orange-500 mx-5 h-8 w-30 p-5 text-white hover:shadow-sm hover:shadow-orange-300 hover:translate-y--1"
+              type="button"
+            >
+              Apply now
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center bg-white">
+        <div
+          class="h-15 w-full bg-black flex flex-cols mx-[17%] justify-between px-8 items-center"
+        >
+          <div class="text-white flex flex-cols gap-8">
+            <p id="home" class="cursor-pointer">Home</p>
+            <p id="about" class="cursor-pointer">About</p>
+            <p id="programs" class="cursor-pointer">Programs</p>
+            <p id="courses" class="cursor-pointer">Courses</p>
+            <p id="admission" class="cursor-pointer">Admissions</p>
+            <p id="contacts" class="cursor-pointer">Contacts</p>
+          </div>
+          <form
+            action=""
+            id="form"
+            class="bg-black text-white border border-gray-100 shadow-md h-10 px-5 flex items-center rounded-2xl"
+          >
+            <input type="text" id="task" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+      </div>
+      <div class="h-[50%] w-full relative">
+        <img
+          src="img6.jpeg"
+          alt=""
+          class="h-full w-full overflow-hidden object-cover blur-[3px]"
+        />
+        <div
+          class="flex flex-col items-center justify-center gap-5 absolute top-[18%] left-[30%] text-white h-[50%] w-[40%]"
+        >
+          <h1 class="font-bold text-5xl">Contacts</h1>
+          <div class="flex flex-cols gap-5">
+            <p class="home" id="home">HOME></p>
+            <p>CONTACTS</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 py-16 lg:py-24">
+        <!-- Contact Info -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 text-center mb-16 lg:mb-20"
+        >
+          <div>
+            <h3 class="text-xl lg:text-2xl font-semibold text-gray-800 mb-3">
+              Address
+            </h3>
+            <p class="text-gray-500 leading-7">
+              198 West 21th Street,<br />
+              Suite 721 New York NY 10016
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-xl lg:text-2xl font-semibold text-gray-800 mb-3">
+              Contact Number
+            </h3>
+            <p class="text-gray-500">+1235 2355 98</p>
+          </div>
+
+          <div>
+            <h3 class="text-xl lg:text-2xl font-semibold text-gray-800 mb-3">
+              Email Address
+            </h3>
+            <p class="text-gray-500">info@yoursite.com</p>
+          </div>
+
+          <div>
+            <h3 class="text-xl lg:text-2xl font-semibold text-gray-800 mb-3">
+              Website
+            </h3>
+            <p class="text-gray-500">yoursite.com</p>
+          </div>
+        </div>
+
+        <!-- Map + Form -->
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start"
+        >
+          <!-- Google Map -->
+          <div class="w-full h-[300px] sm:h-[400px] lg:h-[500px]">
+            <iframe
+              class="w-full h-full rounded-md"
+              src="https://maps.google.com/maps?q=San%20Francisco&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+
+          <!-- Contact Form -->
+          <form class="space-y-5">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="w-full h-14 border border-gray-300 px-5 rounded outline-none focus:border-orange-500"
+            />
+
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="w-full h-14 border border-gray-300 px-5 rounded outline-none focus:border-orange-500"
+            />
+
+            <input
+              type="text"
+              placeholder="Subject"
+              class="w-full h-14 border border-gray-300 px-5 rounded outline-none focus:border-orange-500"
+            />
+
+            <textarea
+              rows="7"
+              placeholder="Message"
+              class="w-full border border-gray-300 p-5 rounded resize-none outline-none focus:border-orange-500"
+            >
+            </textarea>
+
+            <button
+              class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-md transition"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

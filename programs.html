@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="bg-white h-screen w-screen py-0">
+      <!-- top -->
+      <div
+        class="h-auto flex flex-row justify-self-starts md:h-40% md:px-6 w-full bg-white lg:flex flex-cols px-4 justify-around py-5"
+      >
+        <div>
+          <h1 class="font-bold text-4xl">FOX.</h1>
+          <p class="font-semibold text-sm">UNIVERSITY</p>
+        </div>
+        <div class="flex gap-13">
+          <div class="flex gap-5 justify-center items-center">
+            <i class="fa-solid fa-paper-plane text-orange-500"></i>
+            <div>
+              <h3 class="font-bold">Email</h3>
+              <p>youreamail@email.com</p>
+            </div>
+          </div>
+          <div class="flex gap-5 justify-center items-center">
+            <i class="fa-solid fa-phone text-orange-500"></i>
+            <div>
+              <h3 class="font-bold">Call</h3>
+              <p>Call Us: + 1235 2355 98</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn1 flex items-center">
+          <button
+            id="btn1"
+            class="btn1 flex items-center justify-center bg-orange-500 mx-5 h-8 w-30 p-5 text-white hover:shadow-sm hover:shadow-orange-300 hover:translate-y--1"
+            type="button"
+          >
+            Apply now
+          </button>
+        </div>
+      </div>
+      <div class="flex items-center bg-white">
+        <div
+          class="h-15 w-full bg-black flex flex-cols mx-[17%] justify-between px-8 items-center"
+        >
+          <div class="text-white flex flex-cols gap-8">
+            <p id="home" class="cursor-pointer">Home</p>
+            <p id="about" class="cursor-pointer">About</p>
+            <p id="programs" class="cursor-pointer">Programs</p>
+            <p id="courses" class="cursor-pointer">Courses</p>
+            <p id="admission" class="cursor-pointer">Admissions</p>
+            <p id="contacts" class="cursor-pointer">Contacts</p>
+          </div>
+          <form
+            action=""
+            id="form"
+            class="bg-black text-white border border-gray-100 shadow-md h-10 px-5 flex items-center rounded-2xl"
+          >
+            <input type="text" id="task" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+      </div>
+      <div class="h-[50%] w-full relative">
+        <img
+          src="img5.jpeg"
+          alt=""
+          class="h-full w-full overflow-hidden object-cover blur-xs"
+        />
+        <div
+          class="flex flex-col items-center justify-center gap-5 absolute top-[18%] left-[30%] text-white h-[50%] w-[40%]"
+        >
+          <h1 class="font-bold text-5xl">Academic Programs</h1>
+          <div class="flex flex-cols gap-5">
+            <p
+              class="home"
+              id="home
+            "
+            >
+              HOME>
+            </p>
+            <p>PROGRAMS</p>
+          </div>
+        </div>
+        <!-- <div
+          class="flex flex-col gap-7 h-[80%] w-full px-[25%] justify-center items-center"
+        >
+          <h1 class="text-5xl font-semibold">Find Your Path</h1>
+          <p class="text-[20px] text-center">
+            Fox University offers over 50 undergraduate and graduate programs
+            across five distinguished schools. Our programs combine academic
+            rigor with practical experience to prepare you for success.
+          </p>
+        </div> -->
+        <section class="bg-white py-16 px-4 font-sans">
+          <div class="max-w-4xl mx-auto text-center">
+            <!-- Header Section -->
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">
+              Find Your Path
+            </h2>
+            <p class="text-gray-600 leading-relaxed mb-12 max-w-2xl mx-auto">
+              Fox University offers over 50 undergraduate and graduate programs
+              across five distinguished schools. Our programs combine academic
+              rigor with practical experience to prepare you for success.
+            </p>
+
+            <!-- Statistics Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+              <!-- Degree Programs -->
+              <div class="flex flex-col items-center">
+                <span class="text-4xl font-bold text-orange-600 mb-2">50+</span>
+                <span
+                  class="text-sm font-medium text-gray-500 uppercase tracking-wide"
+                  >Degree Programs</span
+                >
+              </div>
+
+              <!-- Student-Faculty Ratio -->
+              <div class="flex flex-col items-center">
+                <span class="text-4xl font-bold text-orange-600 mb-2"
+                  >15:1</span
+                >
+                <span
+                  class="text-sm font-medium text-gray-500 uppercase tracking-wide"
+                  >Student-Faculty Ratio</span
+                >
+              </div>
+
+              <!-- Employment Rate -->
+              <div class="flex flex-col items-center">
+                <span class="text-4xl font-bold text-orange-600 mb-2">94%</span>
+                <span
+                  class="text-sm font-medium text-gray-500 uppercase tracking-wide"
+                  >Employment Rate</span
+                >
+              </div>
+
+              <!-- Industry Partners -->
+              <div class="flex flex-col items-center">
+                <span class="text-4xl font-bold text-orange-600 mb-2"
+                  >100+</span
+                >
+                <span
+                  class="text-sm font-medium text-gray-500 uppercase tracking-wide"
+                  >Industry Partners</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

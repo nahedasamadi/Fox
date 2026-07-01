@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="bg-white h-screen w-screen">
+      <!-- top -->
+      <div
+        class="h-40% w-full bg-white flex flex-cols justify-around px-10 py-5"
+      >
+        <div>
+          <h1 class="font-bold text-4xl">FOX.</h1>
+          <p class="font-semibold text-sm">UNIVERSITY</p>
+        </div>
+        <div class="flex gap-13">
+          <div class="flex gap-5 justify-center items-center">
+            <i class="fa-solid fa-paper-plane text-orange-500"></i>
+            <div>
+              <h3 class="font-bold">Email</h3>
+              <p>youreamail@email.com</p>
+            </div>
+          </div>
+          <div class="flex gap-5 justify-center items-center">
+            <i class="fa-solid fa-phone text-orange-500"></i>
+            <div>
+              <h3 class="font-bold">Call</h3>
+              <p>Call Us: + 1235 2355 98</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn1 flex items-center">
+          <button
+            id="btn1"
+            class="btn1 flex items-center justify-center bg-orange-500 mx-5 h-8 w-30 p-5 text-white hover:shadow-sm hover:shadow-orange-300 hover:translate-y--1"
+            type="button"
+          >
+            Apply now
+          </button>
+        </div>
+      </div>
+      <div class="flex items-center bg-white">
+        <div
+          class="h-15 w-full bg-black flex flex-cols mx-[17%] justify-between px-8 items-center"
+        >
+          <div class="text-white flex flex-cols gap-8">
+            <p id="home" class="cursor-pointer">Home</p>
+            <p id="about" class="cursor-pointer">About</p>
+            <p id="programs" class="cursor-pointer">Programs</p>
+            <p id="courses" class="cursor-pointer">Courses</p>
+            <p id="admission" class="cursor-pointer">Admissions</p>
+            <p id="contacts" class="cursor-pointer">Contacts</p>
+          </div>
+          <form
+            action=""
+            id="form"
+            class="bg-black text-white border border-gray-100 shadow-md h-10 px-5 flex items-center rounded-2xl"
+          >
+            <input type="text" id="task" placeholder="Search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+      </div>
+      <div class="h-[50%] w-full relative">
+        <img
+          src="img2.jpeg"
+          alt=""
+          class="h-full w-full overflow-hidden object-cover blur-[2px]"
+        />
+        <div
+          class="flex flex-col items-center justify-center gap-5 absolute top-[18%] left-[30%] text-white h-[50%] w-[40%]"
+        >
+          <h1 class="font-bold text-5xl">About</h1>
+          <div class="flex flex-cols gap-5">
+            <p class="home" id="home">HOME></p>
+            <p>ABOUT</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center w-full h-[30%] py-0">
+        <h1 class="text-5xl font-semibold">Explore More</h1>
+      </div>
+    </div>
+
+    <div class="h-full w-full relative">
+      <img src="img5.jpeg" alt="" class="h-full w-full object-cover" />
+      <div class="absolute inset-0 bg-orange-600/50"></div>
+      <div class="h-full w-full flex flex-col gap-10 px-[5%]">
+        <div class="h-[50%] w-[50%] absolute top-10">
+          <video
+            controls
+            class="h-full w-[80%] block border-0 outline-none rounded-2xl rounded-tr-2xls shadow-none"
+          >
+            <source src="FOX uni.mp4" />
+          </video>
+        </div>
+        <div
+          class="h-[60%] w-[50%] flex flex-col gap-5 absolute right-10 top-[15%] pr-[8%]"
+        >
+          <h2 class="text-4xl text-white font-bold">Fox University</h2>
+          <p class="text-[19px] text-white font-semibold">
+            Separated they live in. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country. A small river named Duden flows by their
+            place and supplies it with the necessary regelialia. It is a
+            paradisematic country, in which roasted parts of sentences fly into
+            your mouth.
+          </p>
+          <p class="text-[19px] text-white font-semibold">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia. It is a paradisematic country, in which
+            roasted parts of sentences fly into your mouth.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-4 text-white gap-5 absolute bottom-30 left-40">
+        <div
+          class="counter1 flex flex-col items-center justify-center gap-2 h-40 w-70 bg-white/20 rounded-2xl"
+        >
+          <span class="teacher text-5xl font-bold">0</span>
+          <span class="text-lg">Certified Teachers</span>
+        </div>
+        <div
+          class="counter2 flex flex-col items-center justify-center gap-2 h-40 w-70 bg-white/20 rounded-2xl"
+        >
+          <span class="student text-5xl font-bold">0</span>
+          <span class="text-lg">Students</span>
+        </div>
+        <div
+          class="counter3 flex flex-col items-center justify-center gap-2 h-40 w-70 bg-white/20 rounded-2xl"
+        >
+          <span class="course text-5xl font-bold">0</span>
+          <span class="text-lg">Courses</span>
+        </div>
+        <div
+          class="counter4 flex flex-col items-center justify-center gap-2 h-40 w-70 bg-white/20 rounded-2xl"
+        >
+          <span class="award text-5xl font-bold">0</span>
+          <span class="text-lg">Awards won</span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
